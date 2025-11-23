@@ -10,7 +10,7 @@ import seaborn as sns
 # Get overview of the DQ over time: 
 
 # Load the dataset (delimiter is ";")
-df = pd.read_csv('DB_data_2020_all_data_Standardised.csv', delimiter=';')
+df = pd.read_csv('data.csv', delimiter=';')
     
 # # Define country-to-region mapping (expand as needed for full coverage)
 region_map = {
